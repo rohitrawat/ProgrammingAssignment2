@@ -1,6 +1,5 @@
 ## Matrix inversion functions with caching.
 
-#1234567890123456789012345678901234567890123456789012345678901234567890123456789
 ## This function creates a CacheMatrix object from a matrix. The CacheMatrix 
 ## object is iverted using the cacheSolve() function. The inversion result is 
 ## cached inside the object when it is first computed. The cached result is 
@@ -33,7 +32,6 @@ makeCacheMatrix <- function(x = matrix()) {
     
     list(set = set, get = get, setinv = setinv, getinv = getinv)
 }
-#1234567890123456789012345678901234567890123456789012345678901234567890123456789
 
 ## This function computes the inverse of a CacheMatrix object. The inverse is 
 ## stored inside the object and is retreived on subsequent calls to the same
